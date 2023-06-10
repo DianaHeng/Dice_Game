@@ -224,6 +224,9 @@ main {
   html {
     font-size: 20%;
   }
+  main{
+    margin: 15px;
+  }
   .main-container {
     box-sizing: border-box;
     width: 100%;
@@ -231,6 +234,11 @@ main {
     overflow: hidden;
     column-gap: 2px;
   }
+
+  .player {
+    padding: 4rem;
+  }
+
   .buttons {
     font-size: 10%;
     row-gap: 2px;
