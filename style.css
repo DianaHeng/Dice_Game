@@ -251,16 +251,27 @@ main {
 
 @media only screen and (max-device-width: 211px) {
   html {
-    font-size: 15%;
+    font-size: 10%;
   }
   .main-container {
-    width: 200px;
+    width: 100px;
+    height: auto;
   }
   .buttons {
     font-size: 10%;
     row-gap: 2px;
     overflow: hidden;
+    margin-bottom: 30px;
+    column-gap: 2px;
   }
+  .current{
+    width: 12rem;
+  }
+
+  .current-score {
+    font-size: 2.5rem;
+  }
+  
 }
 
 @media screen and (orientation: landscape) and (min-device-width: 311px) and (max-device-width: 900px) {
