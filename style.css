@@ -185,7 +185,8 @@ html {
 }
 
 main {
-  width: 100%;
+  max-width: 100%;
+  width: 400px;
   height: 70%;
   text-align: center;
 }
@@ -193,7 +194,12 @@ main {
 
 @media only screen and (max-width: 430px) {
 html {
-  font-size: 30%;
+  font-size: 25%;
+}
+main {
+  max-width: 100%;
+  width: 300px;
+  height: auto;
 }
 
 .name{
@@ -204,4 +210,19 @@ html {
   text-align: center;
   margin: auto;
 }
+}
+
+@media screen and (orientation:landscape)
+and (min-device-width: 319px) 
+and (max-device-width: 900px) {
+  html {
+    font-size: 30%;
+  }
+   main{
+    position: relative;
+    max-width: 100%;
+    width: auto;
+    height: 80%;
+   }
+
 }
