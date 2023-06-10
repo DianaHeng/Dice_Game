@@ -169,3 +169,30 @@ main {
 .hidden {
   display: none;
 }
+
+@media only screen and (max-width: 600px) {
+html {
+  font-size: 40%;
+}
+
+main {
+  width: 80%;
+  height: 80%;
+}
+}
+
+@media only screen and (max-width: 600px) {
+html {
+  font-size: 20%;
+}
+
+main {
+  width: 80%;
+  height: 35%;
+}
+
+.current{
+  text-align: center;
+  margin: auto;
+}
+}
