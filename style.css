@@ -124,10 +124,10 @@ main {
   align-items: center;
   min-height: 100vh;
   position: absolute;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   flex: 1;
-  row-gap: 15px;
+  column-gap: 15px;
 }
 
 .btn {
@@ -148,12 +148,13 @@ main {
   box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
   align-items: center;
   justify-content: center;
-  align-self: center;
+  align-self: flex-end;
   /* position: absolute; */
   /* top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);   */
+  margin-bottom: 10%;
 }
 
 .btn::first-letter {
@@ -164,7 +165,6 @@ main {
 
 .btn--new {
   top: 4rem;
-  margin-bottom: 80rem;
 }
 .btn--roll {
   top: 39.3rem;
@@ -217,7 +217,6 @@ main {
     width: 500px;
     height: 50%;
     text-align: center;
-    margin: 15px;
   }
 }
 
@@ -255,11 +254,12 @@ main {
     font-size: 15%;
   }
   .main-container {
-    width: 299px;
+    width: 200px;
   }
   .buttons {
     font-size: 10%;
     row-gap: 2px;
+    overflow: hidden;
   }
 }
 
