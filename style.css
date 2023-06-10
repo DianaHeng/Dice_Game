@@ -54,6 +54,7 @@ main {
   word-spacing: 2px;
   font-weight: 300;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .score {
@@ -83,7 +84,7 @@ main {
   border-radius: 9px;
   color: #fff;
   width: 65%;
-  padding: 2rem;
+  padding: 2rem 2rem;
   text-align: center;
   transition: all 0.75s;
 }
@@ -93,6 +94,7 @@ main {
   margin-bottom: 1rem;
   font-size: 1.7rem;
   color: #ddd;
+  text-align: center;
 }
 
 .current-score {
@@ -176,19 +178,22 @@ html {
 }
 
 main {
-  width: 80%;
-  height: 80%;
+  width: 80rem;
+  height: 60rem;
 }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
 html {
   font-size: 20%;
 }
 
 main {
-  width: 80%;
   height: 35%;
+}
+
+.name{
+  text-align: center;
 }
 
 .current{
