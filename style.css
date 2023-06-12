@@ -128,7 +128,6 @@ main {
   flex-wrap: wrap;
   flex: 1;
   column-gap: 15px;
-  position: absolute;
 }
 
 .btn {
